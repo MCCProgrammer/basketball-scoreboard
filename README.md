@@ -1,25 +1,31 @@
 # Basketball Scoreboard 🏀
-A simple website where you and your friends can log who is winning a basketball match.
 
-## Features 🔨
-- Increment and decrement scores for each team. See who is winning. And save the data.
-- Reset scores to start a new game.
-- Persists data in local storage.
-- Responsive design for mobile and desktop. 
+A scoreboard for a pickup basketball game with friends: add points to each team and see who is winning.
 
-## How to Use 📖
-1. Open the website in your browser.
-3. Use the "+" and "-" buttons to update the scores.
-4. Click "Reset" to start a new game.
+**Live demo:** https://mccprogrammer.github.io/basketball-scoreboard/
 
-## Installation
-1. Clone the repository:
-  ```
-  git clone "copy the link from the repo"
-  ```
-2. Open `index.html` in your browser.
+![Basketball Scoreboard screenshot](docs/screenshot.png)
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
+## Features
+
+- +1, +2 and +3 buttons for the home and guest teams
+- New game, with the previous games kept in a history you can clear
+- Scores and history saved in `localStorage`, so a refresh loses nothing
+- Responsive layout for phones and desktops
+
+## Run it locally
+
+No build step: clone the repo and open `index.html` in a browser.
+
+```bash
+git clone https://github.com/MCCProgrammer/basketball-scoreboard.git
+open basketball-scoreboard/index.html
+```
+
+## Built with
+
+HTML, CSS and plain JavaScript.
+
+---
+
+One of my first web projects. More of my work at [mccprogrammer.com/projects](https://mccprogrammer.com/projects).
